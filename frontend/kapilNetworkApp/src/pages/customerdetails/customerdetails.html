@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle *ngIf="!item">
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Customer Details</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <h3 text-center *ngIf="item">{{item.name}}</h3>
+  <h4 text-center *ngIf="item">Phone :{{item.phone}}</h4>
+  <h4 text-center>Last Payment Date : {{lastPayment}}</h4>
+  <h4 text-center>Outstanding Amount : {{amountLeft}}</h4>
+  <h4 text-center>Plan Enrolled : {{plan.name}}</h4>
+  <p></p>
+  <button text-center color="danger" ion-item (click)="DeleteCustomer($event, item)">Delete</button>
+  <p></p>
+  <button text-center color="primary" ion-item (click)="Updatecustomer($event, item)">Edit</button>
+  <p></p>
+</ion-content>

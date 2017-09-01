@@ -1,0 +1,20 @@
+{
+  "name": "kapilnetworkservices",
+  "version": "1.0.0",
+  "description": "Web application for hanndeling plans and users",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Himanshu Tiwari",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.7",
+    "node-restful": "^0.2.6",
+    "nodemon": "^1.11.0",
+    "validator": "^8.0.0"
+  }
+}

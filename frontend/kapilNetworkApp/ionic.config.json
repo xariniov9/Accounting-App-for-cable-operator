@@ -1,0 +1,13 @@
+{
+  "name": "kapilNetworkApp",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {},
+  "proxies": [
+    {
+      "path": "/base",
+      "proxyUrl": "http://localhost:3000"
+    }
+
+  ]
+}
